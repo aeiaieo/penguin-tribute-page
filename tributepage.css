@@ -1,0 +1,81 @@
+main {
+    max-width: 1280px;
+    max-height:200%;
+    margin: 30px auto;
+    padding:15px;
+    background-color: rgba(235, 150, 195, 0.985);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif black;
+    color: rgb(255, 255, 255);
+  }
+  header {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  main > p {
+    text-align: center;
+  }
+  /*img-div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(228, 36, 36);
+    border-radius: 5px;
+  }*/
+  #image {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .img-caption {
+    text-align: center;
+  }
+  
+  #tribute-info {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #tribute-info > h3 {
+    text-align: center;
+  }
+  
+  #tribute-info > ul li {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+  
+  #tribute-info > p {
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+  }
+  h3, h5 {
+    text-align:center;
+  }
+  .wiki-link {
+    color:palevioletred;
+  }
+  .c-item {
+    height:550px;
+  }
+  .c-img {
+    height: 100;
+    object-fit: cover;
+  }
+  utton {
+    position: fixed;
+  }
+li {
+  list-style-type: none;
+}
+.lex-container {
+  align-items: end;
+}
