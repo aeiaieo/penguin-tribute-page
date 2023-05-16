@@ -1,54 +1,69 @@
 
 * {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
 header {
   padding-top: 15px ;
-  text-align: left;
   font-color: rgba(53, 50, 52, 0.985);
+  max-width: 1280px;
+  margin: 30px auto;
 }
 header > h1 {
   font-size: 40px;
-  /*find a way to offset to align with main*/
+  margin-bottom: 0;
 }
 header > h2 {
   font-size: 20px;
-  margin: 1px;
-  /*find a way to offset to align with main*/
 }
 main {
-    max-width: 1280px;
-    max-height:200%;
-    margin: 30px auto;
-    padding:15px;
-    background-color: rgba(53, 50, 52, 0.985);
-    border-radius: 5px;
-    font-color:rgba(53, 50, 52, 0.985);
-    color: rgb(255, 255, 255);
+  max-width: 1280px;
+  max-height: 200%;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: rgba(53, 50, 52, 0.985);
+  border-radius: 5px;
+  font-color: rgba(53, 50, 52, 0.985);
+  color: rgb(255, 255, 255);
   }
-  .c-item {
-    height:550px;
-    background-image:top;
+.carousel-inner {
+  border-radius: 5px;
   }
-  .c-img {
-    height: 100;
-    object-fit: cover;
+.c-item {
+  max-height: 550px;
   }
-  .img-caption {
-    text-align: center;
+.c-img {
+  height: 100;
+  object-fit: cover;
   }
-.facts {
-    text-align:left;
+p {
+  text-align: center;
   }
-  ul {
-    padding:0;
-  }
-  .wiki-link {
-    color: rgb(122, 122, 122);
-    text-decoration:none;
-  }
-li {
+.facts ul, li {
+  text-align:left;
+  padding: 0;
   list-style-type: none;
+  }
+footer {
+  max-width: 1280px;
+  margin: 30px auto;
+  padding: 15px;
+  padding-top: 30px;
+  background-color: rgba(53, 50, 52, 0.985);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
 }
+.wiki-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  }
+#youtube-icon {
+  max-width: 25px;
+  display: inline-block;
+  margin-right: 10px;
+  }

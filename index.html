@@ -1,68 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,  initial-scale=1.0, shrink-to-fit=no">
-    <!--bootstrap CSS and JS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <!--bootstrap CSS and JS-->
-    <link rel="stylesheet" href="tributepage.css">
-    <title>🐧 Tribute Page</title>
-  </head>
-  <body>
-    <header>
-      <h1 id="title">A word about <span> penguins</span></h1>
-      <h2>The birds who swim</h2>
-    </header>
-    <main>
-      <div id="penguin-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#penguin-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#penguin-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#penguin-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active c-item">
-            <img src="images\martin-wettstein-FnH1Pjjh7Us-unsplash.jpg" class="d-block w-100 c-img" alt="Penguins with their chicks.">
-          </div>
-          <div class="carousel-item c-item">
-            <img src="images\pam-ivey-c0Y30cWbyEc-unsplash.jpg" class="d-block w-100 c-img" alt="Two penguins standing together.">
-          </div>
-          <div class="carousel-item c-item">
-            <img src="images\rod-long-BSz0jJ172vM-unsplash.jpg" class="d-block w-100 c-img" alt="Three penguins sneer at a baby seal.">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#penguin-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button"  data-bs-target="#penguin-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!--bootstrap CDN for CSS and JS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="tributepage.css">
+  <title>🐧 Tribute Page</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">A Quick Word About Penguins</h1>
+    <h2>The birds who swim</h2>
+  </header>
+  <main>
+    <!--bootstrap carousel start-->
+    <div id="penguin-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#penguin-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#penguin-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#penguin-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <figcaption class="img-caption"><i>"Like a soulmate, he’s your penguin."</i> – Christina Perri</figcaption>
-
-        <section class="facts">
-          <h3>Penguin Facts</h3>
-          <ul>
-            <li><strong>Adaptdive</strong> - <i>Emperor Penguins can stay underwater for around 20 minutes at a time.</i></li>
-            <!-- source: https://www.coolaustralia.org/fun-facts-about-penguins/-->
-            <li><strong>Form</strong> - <i>Penguin feet are adapted to walk long distances.</i></li>
-            <!-- source: https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins-->
-            <li><strong>Love</strong> - <i>Many male penguins gift female penguins with rocks in order to woo them.</i></li>
-            <!-- source: https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins-->
-          </ul>
-        </section>
-        <section>
-          <h5>Check out the <a class="wiki-link" target="_blank" href="https://en.wikipedia.org/wiki/Penguin">penguin Wikipedia page</a> for more penguin facts!</h5>
-        </section>
-    </main>
-    <footer>
-      <p>
-        Alexis Boldt 2023
-      </p>
-    </footer>
-  </body>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="images\martin-wettstein-FnH1Pjjh7Us-unsplash.jpg" class="d-block w-100 c-img" alt="Penguins with their chicks.">
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images\pam-ivey-c0Y30cWbyEc-unsplash.jpg" class="d-block w-100 c-img" alt="Two penguins standing together.">
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images\rod-long-BSz0jJ172vM-unsplash.jpg" class="d-block w-100 c-img" alt="Three penguins sneer at a baby seal.">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#penguin-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button"  data-bs-target="#penguin-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--bootstrap carousel end-->
+    <p><q><i>Like a soulmate, he's your penguin.</i></q>- Christina Perri</p>
+    <section class="facts">
+      <h3><strong>Penguin Facts</strong></h3>
+      <ul>
+        <li><strong>Adaptdive</strong> - Emperor Penguins can stay underwater for around 20 minutes a atime.</li>
+        <!-- source: https://www.coolaustralia.org/fun-facts-about-penguins/-->
+        <li><strong>Evolved</strong> - Penguin feet are adapted to walk long distances.</li>
+        <!-- source: https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins-->
+        <li><strong>Concious</strong> - Many male penguins gift female penguins with rocks in order twoo them.</li>
+        <!-- source: https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins-->
+      </ul>
+    </section>
+  </main>
+  <footer class="flex-container">
+    <p><a href="https://www.youtube.com/watch?v=sKlz04IFkbM" target="_blank" title="Penguin livestream"> <img id="youtube-icon" src = "images\Group 1.svg" alt="youtube icon"/></a>The CaliforniaAcademy of Sciences penguin live stream!</p>
+    <p>Check out the <a class="wiki-link" target="_blank" href="https://en.wikipedia.org/wikiPenguin">penguin Wikipedia page</a> for more penguin info!</p>  
+  </footer>
+</body>
 </html>
